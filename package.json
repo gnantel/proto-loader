@@ -43,6 +43,7 @@
     "protobufjs": "gnantel/protobuf.js"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.13",
     "@types/lodash.camelcase": "^4.3.4",
     "@types/node": "^10.12.5",
     "clang-format": "^1.2.2",

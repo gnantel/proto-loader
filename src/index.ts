@@ -137,7 +137,7 @@ function getAllHandledReflectionObjects(
 function createDeserializer(
     cls: Protobuf.Type, options: Options): Deserialize<object> {
   return function deserialize(argBuf: Buffer): object {
-    return cls.toObject(cls.decode(argBuf, undefined, options.unknown), options);
+    return cls.toObject(cls.decode(argBuf, undefined, options.unknowns), options);
   };
 }
 
